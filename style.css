@@ -1,0 +1,64 @@
+html{
+  max-height:450px;
+}
+
+body {
+  max-height:450px;
+  min-width:650px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:3px;
+  background-image: linear-gradient(to right top, #c2e7e0, #bfe4dd, #bce1da, #badfd8, #b7dcd5, #b0d8d0, #aad3cc, #a3cfc7, #96c8bf, #89c1b7, #7cbaaf, #6eb3a7);
+}
+
+input {
+  width:70%;
+  font-family: 'Comfortaa';
+  border:none;
+  border-radius:6px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 24px 10px 24px;
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  border:none;
+  font-family: 'Comfortaa';
+  font-weight:900;
+  letter-spacing:3px;
+  border-radius:6px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 24px 10px 24px;
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+button:hover {
+  transform:scale(1.06)
+}
+
+.delete-all{
+  background-color:#C45065;
+  color:white;
+}
+
+.save-tab {
+  background-color:#74918B;
+  color:white;
+}
+
+.save-url {
+  background-color:#509FC4;
+  color:white; 
+}
+
+li {
+  line-height: 30px;
+  letter-spacing:1px;
+  color:#509fc4;
+}
+
+a{
+  color:black;
+  text-decoration-line: none;
+  font-size:16px;
+}
